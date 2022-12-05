@@ -1,2 +1,10 @@
 # pandas_challenge
 this is the repo for PyCitySchools files
+
+Results and Analysis:
+
+There are 15 total schools in this district. The % passing math is ~75%, % passing reading is ~86%, and % overall pass is 65%. But this is an incomplete picture and drilling down further gives a more accurate assessment of the differences in performance in this district. 
+
+When you assess the per-student budget for each school, spending does not necessarily translate to better performance. For instance, Holden High School, a very small Charter, spends $581 per student, and has an 83% average math score whie Huang HS, a large District school, spends $74 more per student than Holden, but lags behind by about 7% in average math scores. The reading results are approximately the same between these two schools. The math passing scores, however, are even more disparate: Holden is 92.5% to Huang's 65.7% (reading is a bit closer but still different at 96% vs 81%, respectively) and the overall pass rates are shockingly different (89% vs. 53.5%). This suggests that something besides money spent is responsible for the differences in outcomes. 
+
+All of the top 5 schools in this district are Charter schools; all of these have 90% or better overall pass rates. Charters surpass the district schools here by an immense amount- ~90% versus 53.5%. What's the most noticeable difference between the two school types from the data we have available? School size. The small to medium schools (less than 2000 students) have very high pass rates, while the large schools (2000-5000 students) have far lower pass rates. The district schools here are all have quite large student populations while the Charter schools are much smaller by comparison. This suggests (but isn't definitive, of course) that school size is more influential in student performance than moneys allocated for students. There are likely other factors at play here, as is usual, such as socioeconomic factors that are not part of this data set.
